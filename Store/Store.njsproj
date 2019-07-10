@@ -33,14 +33,47 @@
     <Compile Include="app.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
+    <Content Include="bootstrap-grid.css.map" />
+    <Content Include="bootstrap-grid.min.css" />
+    <Content Include="bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap-reboot.css" />
+    <Content Include="bootstrap-reboot.css.map" />
+    <Content Include="bootstrap-reboot.min.css" />
+    <Content Include="bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap.bundle.js" />
+    <Content Include="bootstrap.bundle.js.map" />
+    <Content Include="bootstrap.bundle.min.js" />
+    <Content Include="bootstrap.bundle.min.js.map" />
+    <Content Include="bootstrap.css" />
+    <Content Include="bootstrap.css.map" />
+    <Content Include="bootstrap.js" />
+    <Content Include="bootstrap.js.map" />
+    <Content Include="bootstrap.min.css.map" />
+    <Content Include="bootstrap.min.js" />
+    <Content Include="bootstrap.min.js.map" />
+    <Content Include="libman.json" />
+    <Content Include="lib\twitter-bootstrap\css\bootstrap-grid.css" />
+    <Content Include="lib\twitter-bootstrap\css\bootstrap.min.css" />
     <Content Include="package.json" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\images\bg1.jpg" />
     <Content Include="public\stylesheets\main.css" />
+    <Content Include="public\stylesheets\Site.css" />
     <Content Include="README.md" />
+    <Content Include="views\index.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
+    <Content Include="views\main.js">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="lib\" />
+    <Folder Include="lib\twitter-bootstrap\" />
+    <Folder Include="lib\twitter-bootstrap\css\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />

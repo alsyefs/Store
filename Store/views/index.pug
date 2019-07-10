@@ -3,3 +3,26 @@
 block content
   h1= title
   p Welcome to #{title}
+  
+  head
+  script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+  script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+  meta(charset='utf-8')
+  link(href='stylesheets/main.css' rel='stylesheet' type='text/css')
+  script(type='text/javascript' src='./main.js')
+  title Store
+button#btn(onclick='btnClicked();')  Click me
+#table
+table
+  tr
+    td row 1 - col 1
+    td row 1 - col 2
+    td row 1 - col 3
+  tr
+    td row 2 - col 1
+    td row 2 - col 2
+    td row 2 - col 3
+  tr
+    td row 3 - col 1
+    td row 3 - col 2
+    td row 3 - col 3
